@@ -1,0 +1,6 @@
+site_name: Everything as Code
+nav:
+    - Home: index.md
+    - Setup: setup.md
+    - About: about.md
+theme: readthedocs
