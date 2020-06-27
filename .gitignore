@@ -14,3 +14,10 @@ tmp
 
 # openliberty
 target
+
+
+# vsc java
+.project
+.setting
+.classpath
+*.prefs
