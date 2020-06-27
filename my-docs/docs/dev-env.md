@@ -15,6 +15,7 @@ code --install-extension docsmsft.docs-yaml
 code --install-extension golang.Go
 code --install-extension hashicorp.terraform
 code --install-extension IBM.output-colorizer
+code --install-extension JaimeOlivares.yuml
 code --install-extension James-Yu.latex-workshop
 code --install-extension jq-syntax-highlighting.jq-syntax-highlighting
 code --install-extension lextudio.restructuredtext
@@ -27,6 +28,7 @@ code --install-extension ms-python.python
 code --install-extension ms-vscode.azure-account
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-vscode.github-issues-prs
+code --install-extension ms-vscode.Theme-MaterialKit
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension ms-vsliveshare.vsliveshare-audio
