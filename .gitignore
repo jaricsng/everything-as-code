@@ -1,2 +1,16 @@
 tmp
+# generated pdf from pandoc, latex
 *.pdf
+*.log
+*.aux
+*.fdb_latexmk
+*.fls
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.synctex.gz
+
+# openliberty
+target
