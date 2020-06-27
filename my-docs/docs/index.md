@@ -57,13 +57,17 @@ Examples of Infrastructure as Code
 - [Heat Orchestration Template (HOT)](https://docs.openstack.org/heat/rocky/template_guide/hot_guide.html) for OpenStack
 - [vApp Templates](https://docs.vmware.com/en/VMware-Cloud-Director/10.0/com.vmware.vcloud.tenantportal.doc/GUID-D5737821-C3A4-4C73-8959-CA293C12A7DE.html) only for VMware
 - [CloudFormation](https://aws.amazon.com/cloudformation/) for AWS 
+- [chef](https://www.chef.io/)
+- [ansible](https://www.ansible.com/resources/get-started)
+- [puppet](https://puppet.com/)
+- [Serverspec](https://serverspec.org/)
 
 ## Configuration as Code
 
-- ansible
-- chef
-- saltstack
-- puppet
+- [ansible](https://www.ansible.com/resources/get-started) and [ansible playbook](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html)
+- [chef](https://www.chef.io/configuration-management/)
+- [saltstack](https://www.saltstack.com/)
+- [puppet](https://puppet.com/)
 
 ## Container as Code
 
@@ -82,3 +86,16 @@ Examples of Infrastructure as Code
     - [draw.io](https://app.diagrams.net/)
     - [yuml.me](https://yuml.me/)
 
+## Security as Code
+
+- SonarQube static analysis
+- [OpenSCAP](https://www.open-scap.org/)
+
+[OWASP Security Knowledge Framework](https://github.com/blabla1337/skf-flask)
+Security Knowledge Framework is an expert system application that uses the OWASP Application Security Verification Standard with detailed code examples (secure coding principles) to help developers in pre-development and post-development phases and create applications that are secure by design.
+
+## Pipeline as Code
+
+- [Apache Airflow](https://airflow.apache.org/)
+- [Jenkins](https://www.jenkins.io/)
+- [Tekton](https://github.com/tektoncd/pipeline#-tekton-pipelines)
