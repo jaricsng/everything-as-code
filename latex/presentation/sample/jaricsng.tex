@@ -1,8 +1,10 @@
 \documentclass{beamer}
 
+
+
 \usepackage{appendixnumberbeamer}
 \usepackage{graphicx}
-
+\usepackage{tikz}
 \usepackage{booktabs}
 \usepackage[scale=2]{ccicons}
 
@@ -56,14 +58,17 @@
         \item Configuration as Code\pause
         \item Securrity as Code\pause
         \item Workflow as Code\pause
+        \item Architecture as code\pause
       \end{itemize}            
     \end{column}
     \begin{column}{0.5\textwidth}
       \begin{itemize}
         \item Document as Code\pause
         \item Presentation as Code\pause
+        \item Training as Code \pause
         \item Diagram as Code \pause
-        \item Operation as Code
+        \item Operation as Code\pause
+        \item Projects as code + Scaffolding 
       \end{itemize}            
     \end{column}
   \end{columns}
@@ -78,6 +83,7 @@
         \item Tracebility\pause
         \item Identifiability\pause
         \item Clarity\pause
+        \item Searchable\pause 
       \end{itemize}          
     \end{column}
     \begin{column}{0.5\textwidth}
@@ -85,7 +91,8 @@
         \item Reduced duplication\pause
         \item Reduced errors\pause
         \item Review\pause
-        \item Collaboration
+        \item Collaboration\pause
+        \item Scale
       \end{itemize}
     \end{column}
   \end{columns}
@@ -106,7 +113,61 @@
 
 \section{Demo}
 
-\begin{frame}[t]{Definition of a Function}\vspace{10pt}
+\begin{frame}{Diagram as Code - Draw}
+  \begin{center}
+    \begin{tikzpicture}
+      \draw(0,0)rectangle(4,4);
+    
+      \draw(0,0)parabola (4,4);
+      % \draw(0,0) .. controls(0,4) and (4,0) .. (4,4);        
+  \end{tikzpicture}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Diagram as Code - Draw}
+  \begin{center}
+    \begin{tikzpicture}
+      \draw(0,0)rectangle(4,4);
+      
+      % \draw(0,0)parabola (4,4);
+      % \draw(0,0) .. controls(0,4) and (4,0) .. (4,4);
+
+      \draw[red,thick, dashed](2,2)circle(3cm);
+      \draw(2,2)ellipse(3cm and 1cm);
+      \draw(3,0) arc(0:75:3cm);
+    \end{tikzpicture}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Diagram as Code - Draw}
+  \begin{center}
+    \begin{tikzpicture}
+      \draw[step=1cm,gray,very thin](-2,-2)grid(5,5);
+      % \filldraw[fill=blue!40!white, draw=black](0,0)rectangle(4,4);
+      % \shade[left color=blue100,right color=blue10](0,0)rectangle(4,4);
+      \shade[top color=blue100,bottom color=blue10](0,0)rectangle(4,4);
+      % \shade[inner color=blue100,outer color=blue10](0,0)rectangle(4,4);
+    \end{tikzpicture}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Diagram as Code - Graph}
+  \begin{center}
+    \begin{tikzpicture}
+      \draw[step=1cm,gray,very thin](-2,-2)grid(6,5);
+      \draw[thick,->] (0,0) -- (4.5,0)node[anchor=north west]{x axis};
+      \draw[thick,->](0,0) --(0,4.5)node[anchor=south east]{y axis};
+      \foreach \x in {0,1,2,3,4}
+        \draw(\x cm,1pt)-- (\x cm,-1pt) node[anchor=north] {$\x$};
+      \foreach \y in {0,1,2,3,4}
+        \draw(1pt,\y cm)-- (-1pt,\y cm) node[anchor=east] {$\y$};
+
+      \draw (0,0) parabola (4,4);
+    \end{tikzpicture}
+  \end{center}
+\end{frame}
+
+\begin{frame}[t]{Mathematic equation as Code}\vspace{10pt}
   \begin{block}{Definition of a Function}
     \vspace{0.5em}
     A \textbf{function} $f$ is a rule that assigns to each element $x$ in a set $D$ exactly one element, called $f(x)$, in a set $E$.
@@ -145,14 +206,6 @@ Set $E$ is call the
   \end{columns}  
 \end{frame}
 
-% \begin{frame}[t]{Your Very First Flash Card}\vspace{10pt}
-%   \begin{column}{onlytextwidth}
-    
-%   \end{column}
-% \end{frame}
-
-
-
 \section{Conclusion}
 
 \begin{frame}{Summary}
@@ -187,7 +240,7 @@ Set $E$ is call the
 \end{frame}
 }
 
-\section{Attribution}
+% \section{Attribution}
 \begin{frame}{Attribution}
   \begin{itemize}
     \item Michelle Krummel \LaTeX tutorial play list 
