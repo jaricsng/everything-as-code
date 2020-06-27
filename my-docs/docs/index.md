@@ -97,6 +97,8 @@ Security as Code best practices include:
 - Implementing monitoring functions
 - Performing routine security policy checks
 
+Some tools
+
 - SonarQube static analysis
 - [Inspec](https://github.com/inspec/inspec) 
 - [CIS Docker](https://github.com/dev-sec/cis-docker-benchmark) benchmark
