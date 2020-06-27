@@ -90,12 +90,18 @@ Examples of Infrastructure as Code
 
 - SonarQube static analysis
 - [OpenSCAP](https://www.open-scap.org/)
+- List of [Docker Security tools](https://sysdig.com/blog/20-docker-security-tools/)
+- [kube-hunter](https://github.com/aquasecurity/kube-hunter) - kubenetes security tool
+- [sysdig](https://sysdig.com/)
+- [aqua](https://www.aquasec.com/)
+- [anchore](https://anchore.com/)
 
 [OWASP Security Knowledge Framework](https://github.com/blabla1337/skf-flask)
 Security Knowledge Framework is an expert system application that uses the OWASP Application Security Verification Standard with detailed code examples (secure coding principles) to help developers in pre-development and post-development phases and create applications that are secure by design.
 
 ## Pipeline as Code
 
+- [kabanero](https://kabanero.io/)
 - [Apache Airflow](https://airflow.apache.org/)
 - [Jenkins](https://www.jenkins.io/)
 - [Tekton](https://github.com/tektoncd/pipeline#-tekton-pipelines)
