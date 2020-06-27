@@ -33,8 +33,9 @@ Examples of Operation as Code
 
 Examples of project Scaffolding as Code
 
-- Yeoman
-- LoopBack
+- [Yeoman](https://yeoman.io/)
+- [LoopBack](https://loopback.io/)
+- [kabanero](https://kabanero.io/)
 - and many others the generate project codes
 
 ## Documentation as Code
@@ -88,7 +89,18 @@ Examples of Infrastructure as Code
 
 ## Security as Code
 
+Security as Code best practices include:
+
+- Automating feedback loops
+- Automating scans and security testing
+- Executing script tests
+- Implementing monitoring functions
+- Performing routine security policy checks
+
 - SonarQube static analysis
+- [Inspec](https://github.com/inspec/inspec) 
+- [CIS Docker](https://github.com/dev-sec/cis-docker-benchmark) benchmark
+- [CIS Kubernetes Benchmark](https://github.com/dev-sec/cis-kubernetes-benchmark)
 - [OpenSCAP](https://www.open-scap.org/)
 - List of [Docker Security tools](https://sysdig.com/blog/20-docker-security-tools/)
 - [kube-hunter](https://github.com/aquasecurity/kube-hunter) - kubenetes security tool
@@ -101,7 +113,8 @@ Security Knowledge Framework is an expert system application that uses the OWASP
 
 ## Pipeline as Code
 
-- [kabanero](https://kabanero.io/)
 - [Apache Airflow](https://airflow.apache.org/)
 - [Jenkins](https://www.jenkins.io/)
 - [Tekton](https://github.com/tektoncd/pipeline#-tekton-pipelines)
+- [(https://travis-ci.org/)
+- [(https://circleci.com/)
