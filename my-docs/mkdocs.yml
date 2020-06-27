@@ -2,5 +2,6 @@ site_name: Everything as Code
 nav:
     - Home: index.md
     - Setup: setup.md
+    - DevEnv: dev-env.md
     - About: about.md
 theme: readthedocs

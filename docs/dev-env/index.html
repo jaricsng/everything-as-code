@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>About - Everything as Code</title>
+  <title>DevEnv - Everything as Code</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "About";
-    var mkdocs_page_input_path = "about.md";
+    var mkdocs_page_name = "DevEnv";
+    var mkdocs_page_input_path = "dev-env.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -55,12 +55,14 @@
                     <li class="toctree-l1"><a class="reference internal" href="../setup/">Setup</a>
                     </li>
                 </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../dev-env/">DevEnv</a>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">DevEnv</a>
+    <ul class="current">
+    </ul>
                     </li>
                 </ul>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">About</a>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
                     </li>
                 </ul>
       </div>
@@ -84,7 +86,7 @@
     
       
     
-    <li>About</li>
+    <li>DevEnv</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -95,24 +97,69 @@
           <div role="main">
             <div class="section">
               
-                <table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>author</td>
-<td>Jaric Sng</td>
-</tr>
-<tr>
-<td>version</td>
-<td>0.1</td>
-</tr>
-</tbody>
-</table>
+                <h1 id="my-mac-development-enviroment">My Mac Development Enviroment</h1>
+<h1 id="integrated-development-editor">Integrated Development Editor</h1>
+<h2 id="visual-studio-code">Visual Studio Code</h2>
+<h3 id="code-extenions-lising">Code extenions lising</h3>
+<pre><code class="bash">code --list-extensions | xargs -L 1 echo code --install-extension
+
+Sample Output
+
+code --install-extension davidnussio.vscode-jq-playground
+code --install-extension docsmsft.docs-markdown
+code --install-extension docsmsft.docs-yaml
+code --install-extension golang.Go
+code --install-extension hashicorp.terraform
+code --install-extension IBM.output-colorizer
+code --install-extension James-Yu.latex-workshop
+code --install-extension jq-syntax-highlighting.jq-syntax-highlighting
+code --install-extension lextudio.restructuredtext
+code --install-extension ms-azuretools.vscode-azureterraform
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
+code --install-extension ms-ossdata.vscode-postgresql
+code --install-extension ms-python.anaconda-extension-pack
+code --install-extension ms-python.python
+code --install-extension ms-vscode.azure-account
+code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.github-issues-prs
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension ms-vsliveshare.vsliveshare-audio
+code --install-extension ms-vsliveshare.vsliveshare-pack
+code --install-extension NicolasVuillamy.vscode-groovy-lint
+code --install-extension PKief.material-icon-theme
+code --install-extension redhat.java
+code --install-extension redhat.vscode-tekton-pipelines
+code --install-extension redhat.vscode-xml
+code --install-extension redhat.vscode-yaml
+code --install-extension stayfool.vscode-asciidoc
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension vsciot-vscode.vscode-arduino
+code --install-extension vscjava.vscode-java-debug
+code --install-extension vscjava.vscode-java-dependency
+code --install-extension vscjava.vscode-java-pack
+code --install-extension vscjava.vscode-java-test
+code --install-extension vscjava.vscode-maven
+code --install-extension vscoss.vscode-ansible
+</code></pre>
+
+<h2 id="programming-language">Programming Language</h2>
+<ul>
+<li>Python</li>
+<li>Java</li>
+<li>Nodejs</li>
+<li>Anaconda</li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li>docker-desktop</li>
+<li>brew</li>
+<li>tektoncd-cli</li>
+<li>maven</li>
+<li>kubectl</li>
+<li>oc</li>
+</ul>
               
             </div>
           </div>
@@ -120,8 +167,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="../about/" class="btn btn-neutral float-right" title="About">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-        <a href="../dev-env/" class="btn btn-neutral" title="DevEnv"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+        <a href="../setup/" class="btn btn-neutral" title="Setup"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -147,8 +196,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../dev-env/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../setup/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../about/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
