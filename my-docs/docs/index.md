@@ -42,12 +42,12 @@ Examples of project Scaffolding as Code
 
 Examples of Documentation as Code use of markup languages
 
-- markdown
-- html
-- sphinx
-- pydoc
-- mkdocs
-- latex for report, article, thesis, presentation
+- [markdown](https://guides.github.com/features/mastering-markdown/)
+- [html](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+- [sphinx](https://www.sphinx-doc.org/en/master/index.html#)
+- language specific [pydoc](https://docs.python.org/3/library/pydoc.html), [javadoc](https://www.tutorialspoint.com/java/java_documentation.htm)
+- [mkdocs](https://www.mkdocs.org/user-guide/writing-your-docs/) generate documentation from markdown
+- [LaTeX](https://www.latex-project.org/) document preparatio system for report, article, thesis, presentation
 
 ## Infrastructure as Code
 
