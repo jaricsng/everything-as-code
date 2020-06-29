@@ -68,6 +68,8 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#tools">Tools</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#brew">brew</a>
+    </li>
     </ul>
                     </li>
                 </ul>
@@ -171,6 +173,48 @@ code --install-extension vscoss.vscode-ansible
 <li>kubectl</li>
 <li>oc</li>
 </ul>
+<h2 id="brew">brew</h2>
+<pre><code class="bash">brew list |  xargs -L 1 echo - 
+
+- ansible
+- gdbm
+- gettext
+- ghostscript
+- git
+- icu4c
+- jpeg
+- libidn2
+- libtiff
+- libunistring
+- libyaml
+- maven
+- mkdocs
+- node
+- openjdk
+- openssl@1.1
+- pcre2
+- python@3.8
+- readline
+- sqlite
+- tektoncd-cli
+- tree
+- wget
+- xz```
+
+```bash
+ brew cask list |  xargs -L 1 echo - 
+
+- anaconda                        
+- firefox                         
+- mactex                          
+- rawtherapee                     
+- virtualbox
+- brave-browser                   
+- gimp                            
+- multipass                       
+- texstudio                       
+- visual-studio-code
+</code></pre>
               
             </div>
           </div>

@@ -65,3 +65,48 @@ code --install-extension vscoss.vscode-ansible
 - maven
 - kubectl
 - oc
+
+## brew
+
+```bash
+brew list |  xargs -L 1 echo - 
+
+- ansible
+- gdbm
+- gettext
+- ghostscript
+- git
+- icu4c
+- jpeg
+- libidn2
+- libtiff
+- libunistring
+- libyaml
+- maven
+- mkdocs
+- node
+- openjdk
+- openssl@1.1
+- pcre2
+- python@3.8
+- readline
+- sqlite
+- tektoncd-cli
+- tree
+- wget
+- xz```
+
+```bash
+ brew cask list |  xargs -L 1 echo - 
+
+- anaconda                        
+- firefox                         
+- mactex                          
+- rawtherapee                     
+- virtualbox
+- brave-browser                   
+- gimp                            
+- multipass                       
+- texstudio                       
+- visual-studio-code
+```
