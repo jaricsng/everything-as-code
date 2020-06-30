@@ -120,3 +120,7 @@ Security Knowledge Framework is an expert system application that uses the OWASP
 - [Tekton](https://github.com/tektoncd/pipeline#-tekton-pipelines)
 - [Travis](https://travis-ci.org/)
 - [CircleCI](https://circleci.com/)
+
+## AI as Code
+
+- [Apache Airflow](https://airflow.apache.org/)
