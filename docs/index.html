@@ -153,6 +153,7 @@ sngtpj@sg.ibm.com
 <p>Examples of project Scaffolding as Code</p>
 <ul>
 <li><a href="https://yeoman.io/">Yeoman</a></li>
+<li><a href="https://angular.io/guide/setup-local">Angular</a></li>
 <li><a href="https://loopback.io/">LoopBack</a></li>
 <li><a href="https://kabanero.io/">kabanero</a></li>
 <li>and many others the generate project codes</li>
@@ -161,12 +162,21 @@ sngtpj@sg.ibm.com
 <p>Examples of Documentation as Code use of markup languages</p>
 <ul>
 <li><a href="https://guides.github.com/features/mastering-markdown/">markdown</a></li>
+<li><a href="https://mermaid-js.github.io/mermaid/#/">Mermaid</a> <a href="https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuXHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19">live editor</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">html</a></li>
 <li><a href="https://www.sphinx-doc.org/en/master/index.html#">sphinx</a></li>
 <li>language specific <a href="https://docs.python.org/3/library/pydoc.html">pydoc</a>, <a href="https://www.tutorialspoint.com/java/java_documentation.htm">javadoc</a></li>
 <li><a href="https://www.mkdocs.org/user-guide/writing-your-docs/">mkdocs</a> generate documentation from markdown</li>
 <li><a href="https://www.latex-project.org/">LaTeX</a> document preparatio system for report, article, thesis, presentation</li>
 </ul>
+<pre><code class="bash">graph TD
+A[OCP 311 Cluster/OCP 4.3 Cluster] --&gt;|Step 1: Provision IBM Cloud Pak| B(Ibm cloud Pak)
+B --&gt; |Step 2: deploy cam|C[IBM Cloud Automation Manager]
+B --&gt;|Step 3: deploy  app mgmt|D[IBM Cloud App management]
+B --&gt;|Step 4: Optional component| G[Cloudforms]
+B --&gt;|Step 5: Optional component| H[Redhat Ansible Tower]
+</code></pre>
+
 <h2 id="infrastructure-as-code">Infrastructure as Code</h2>
 <p>Examples of Infrastructure as Code</p>
 <ul>
@@ -295,5 +305,5 @@ Security Knowledge Framework is an expert system application that uses the OWASP
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2020-06-30 02:16:21.643139+00:00
+Build Date UTC : 2020-07-01 08:30:45.237276+00:00
 -->

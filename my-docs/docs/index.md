@@ -34,6 +34,7 @@ Examples of Operation as Code
 Examples of project Scaffolding as Code
 
 - [Yeoman](https://yeoman.io/)
+- [Angular](https://angular.io/guide/setup-local)
 - [LoopBack](https://loopback.io/)
 - [kabanero](https://kabanero.io/)
 - and many others the generate project codes
@@ -43,11 +44,21 @@ Examples of project Scaffolding as Code
 Examples of Documentation as Code use of markup languages
 
 - [markdown](https://guides.github.com/features/mastering-markdown/)
+- [Mermaid](https://mermaid-js.github.io/mermaid/#/) [live editor](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuXHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)
 - [html](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 - [sphinx](https://www.sphinx-doc.org/en/master/index.html#)
 - language specific [pydoc](https://docs.python.org/3/library/pydoc.html), [javadoc](https://www.tutorialspoint.com/java/java_documentation.htm)
 - [mkdocs](https://www.mkdocs.org/user-guide/writing-your-docs/) generate documentation from markdown
 - [LaTeX](https://www.latex-project.org/) document preparatio system for report, article, thesis, presentation
+
+```bash
+graph TD
+A[OCP 311 Cluster/OCP 4.3 Cluster] -->|Step 1: Provision IBM Cloud Pak| B(Ibm cloud Pak)
+B --> |Step 2: deploy cam|C[IBM Cloud Automation Manager]
+B -->|Step 3: deploy  app mgmt|D[IBM Cloud App management]
+B -->|Step 4: Optional component| G[Cloudforms]
+B -->|Step 5: Optional component| H[Redhat Ansible Tower]
+```
 
 ## Infrastructure as Code
 
